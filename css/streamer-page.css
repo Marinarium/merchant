@@ -1,0 +1,119 @@
+/*----------Header--------*/
+.header_streamer-page {
+    width: 100%;
+    height: 144px;
+    background-image: url("../img/bg-streamer-page.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*---------About streamer----*/
+.about-streamer {
+    text-align: center;
+    margin: 0 22px 20px;
+    color: #333;
+}
+
+.about-streamer__border-img {
+    width: 142px;
+    height: 142px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -71px auto 16px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.about-streamer__img {
+    height: 100%;
+    width: auto;
+}
+
+.about-streamer__title {
+    margin-bottom: 20px;
+}
+
+.about-streamer__text {
+    margin-bottom: 20px;
+    height: 55px;
+}
+
+/*--------------Footer---------*/
+.footer_streamer-page {
+    padding-top: 146px;
+    margin-top: -146px;
+}
+
+
+/*Last streams*/
+.last-streams {
+    margin-bottom: 34px;
+}
+
+.last-streams__title {
+    margin-bottom: 21px;
+}
+
+.last-streams__list {
+    display: flex;
+    overflow: scroll;
+    padding: 0 22px;
+}
+
+.last-streams__item_00 {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.63) -1.03%, rgba(0, 0, 0, 0) 31.72%),
+    url(../img/streamer_00.jpg);
+}
+
+.last-streams__item_01 {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.63) -1.03%, rgba(0, 0, 0, 0) 31.72%),
+    url(../img/streamer_01.jpg);
+}
+
+.last-streams__item_02 {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.63) -1.03%, rgba(0, 0, 0, 0) 31.72%),
+    url(../img/streamer_02.jpg);
+}
+
+.last-streams__item_03 {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.63) -1.03%, rgba(0, 0, 0, 0) 31.72%),
+    url(../img/streamer_04.jpg);
+}
+
+.last-streams__item {
+    min-width: 92px;
+    height: 145px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4px 5.5px 6px;
+    margin-right: 12px;
+}
+
+.last-streams__status {
+    text-transform: uppercase;
+    background: #FF3B63;
+    border-radius: 5px;
+    padding: 2px 5px;
+    line-height: 1.67;
+}
+
+.streamer-info__nmb-details {
+    align-self: center;
+ }
+
+/*Buttons*/
+.footer_streamer-page .btns-block {
+    text-align: center;
+    padding-bottom: 30px;
+}
