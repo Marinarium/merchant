@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Карточка товара</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product-list.css">
+    <link rel="stylesheet" href="css/product-card.css">
+</head>
+<body>
+<div class="wrapper wrapper_product-card theme_dark-text">
+    <header class="header header_product-card">
+        <button type="button" class="btn-icon btn-icon_back">
+            <svg class="btn-icon__img btn-icon__img_back" width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.3025 9.49004C0.109048 9.29683 0.000240697 9.03471 0 8.76129V8.23879C0.00316801 7.96597 0.111535 7.70491 0.3025 7.51004L7.37 0.456291C7.49909 0.326139 7.67481 0.25293 7.85813 0.25293C8.04144 0.25293 8.21716 0.326139 8.34625 0.456291L9.3225 1.43254C9.45184 1.55927 9.52472 1.73272 9.52472 1.91379C9.52472 2.09486 9.45184 2.26832 9.3225 2.39504L3.20375 8.50004L9.3225 14.605C9.45265 14.7341 9.52586 14.9099 9.52586 15.0932C9.52586 15.2765 9.45265 15.4522 9.3225 15.5813L8.34625 16.5438C8.21716 16.6739 8.04144 16.7472 7.85813 16.7472C7.67481 16.7472 7.49909 16.6739 7.37 16.5438L0.3025 9.49004Z" fill="#4F4F4F"/>
+            </svg>
+        </button>
+        <h1 class="page-title heading-caps heading-caps_02">Л'ЭТУАЛЬ Увлажняющая помада для губ COMME IL FAUT</h1>
+        <button type="button" class="btn-icon like">
+            <svg class="btn-icon__img btn-icon__img_back" width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.605 4.87662C25.1901 3.69287 24.4614 2.62502 23.4977 1.7885C22.5331 0.951216 21.3728 0.38038 20.1424 0.137765C19.6788 0.0463463 19.2022 0 18.7257 0C17.3356 0 15.9835 0.393095 14.8158 1.13681C14.1129 1.58454 13.4954 2.14608 12.9867 2.79541C12.4782 2.14733 11.8611 1.58685 11.1589 1.14C9.99179 0.397368 8.64069 0.00483105 7.2516 0.00483105C7.25152 0.00483105 7.25163 0.00483105 7.25157 0.00483105C6.09414 0.00483105 4.93248 0.290713 3.8925 0.831501C2.8533 1.37189 1.95201 2.15813 1.28618 3.10523C0.603935 4.07561 0.188358 5.16221 0.050965 6.3348C-0.0693336 7.36172 0.0235713 8.46411 0.327158 9.61133C0.928545 11.8839 2.25966 13.9568 3.27044 15.2956C5.46817 18.2064 8.49 20.8485 12.5086 23.373L12.9886 23.6746L13.4687 23.373C18.4117 20.2678 21.8619 16.9894 24.0163 13.3504C25.2553 11.2575 25.9008 9.39303 25.9897 7.65042C26.0392 6.67924 25.9098 5.746 25.605 4.87662ZM12.9887 21.5393C9.3985 19.2274 6.68714 16.8254 4.71097 14.2079C3.79766 12.9983 2.5985 11.1388 2.0721 9.14959C1.8267 8.22221 1.74985 7.34588 1.84371 6.54485C1.9458 5.67356 2.25499 4.8656 2.76275 4.14338C3.26295 3.43192 3.94158 2.84045 4.72522 2.43297C5.50916 2.02533 6.38275 1.80987 7.2516 1.80987C8.29683 1.80987 9.31287 2.10486 10.1898 2.6629C11.0447 3.20685 11.7319 3.97416 12.1772 4.8819L12.9883 6.5354L13.7981 4.88121C14.2429 3.97238 14.9301 3.20406 15.7855 2.65932C16.663 2.10045 17.6796 1.80507 18.7257 1.80507C19.0852 1.80507 19.4444 1.83995 19.7932 1.90872C20.7153 2.09055 21.5872 2.52036 22.3145 3.15169C23.0416 3.78275 23.5904 4.58569 23.9016 5.47368C24.1285 6.12096 24.2245 6.82242 24.187 7.55852C24.1134 9.00198 23.5495 10.5957 22.4631 12.4308C20.5277 15.6999 17.4252 18.6834 12.9887 21.5393Z" fill="#243244"/>
+                <path class="like__fill" d="M12.9889 21.5394C9.39872 19.2275 6.68736 16.8255 4.71119 14.208C3.79788 12.9984 2.59872 11.1389 2.07232 9.1497C1.82692 8.22232 1.75007 7.34599 1.84393 6.54496C1.94602 5.67367 2.25521 4.86571 2.76297 4.14349C3.26317 3.43202 3.9418 2.84056 4.72544 2.43308C5.50938 2.02544 6.38297 1.80998 7.25182 1.80998C8.29706 1.80998 9.31309 2.10497 10.19 2.66301C11.0449 3.20696 11.7321 3.97427 12.1774 4.88201L12.9885 6.53551L13.7983 4.88132C14.2431 3.97249 14.9303 3.20417 15.7857 2.65943C16.6632 2.10056 17.6798 1.80518 18.7259 1.80518C19.0854 1.80518 19.4446 1.84006 19.7934 1.90883C20.7155 2.09066 21.5874 2.52047 22.3147 3.1518C23.0418 3.78286 23.5906 4.5858 23.9018 5.47379C24.1287 6.12107 24.2247 6.82253 24.1872 7.55863C24.1136 9.00209 23.5497 10.5958 22.4633 12.4309C20.5279 15.7 17.4254 18.6835 12.9889 21.5394Z" fill="none"/>
+            </svg>
+        </button>
+    </header>
+    <main class="main main_product-card">
+        <div class="product-images">
+            <div class="slider">
+                <ul class="product-images__list">
+                    <li class="product-images__item">
+                        <div class="product-images__img-border">
+                            <img class="product-images__img" src="img/product-05.jpg" alt="Фото товара">
+                        </div>
+                    </li>
+                    <li class="product-images__item">
+                        <div class="product-images__img-border">
+                            <img class="product-images__img" src="img/product-06.jpg" alt="Фото товара">
+                        </div>
+                    </li>
+                    <li class="product-images__item">
+                        <div class="product-images__img-border">
+                            <img class="product-images__img" src="img/product-07.jpg" alt="Фото товара">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <ul class="product-images__dots">
+                <li class="product-images__dot product-images__dot_active"></li>
+                <li class="product-images__dot"></li>
+                <li class="product-images__dot"></li>
+            </ul>
+        </div>
+        <div class="product-numbers">
+            <div class="product-price">
+                <p class="product-price__discount text_02"><span>641</span> ₽</p>
+                <p class="product-price__current-price heading heading_03">2 548 ₽</p>
+            </div>
+            <div class="container">
+                <ul class="review-stars">
+                    <li class="review-stars__item review-stars__item_full"></li>
+                    <li class="review-stars__item review-stars__item_full"></li>
+                    <li class="review-stars__item review-stars__item_full"></li>
+                    <li class="review-stars__item review-stars__item_half"></li>
+                    <li class="review-stars__item review-stars__item_empty"></li>
+                </ul>
+                <div class="quantity-products heading-caps">
+                    <button type="button" class="btn-icon quantity-products__plus heading-caps">+</button>
+                    <span class="quantity-products__nmb">2</span>
+                    <button type="button" class="btn-icon quantity-products__minus heading-caps">-</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-desc">
+            <div class="slider">
+                <ul class="product-desc__menu-list heading-caps heading-caps_03">
+                    <li class="product-desc__menu-item product-desc__menu-item_active">Описание</li>
+                    <li class="product-desc__menu-item">Информация о бренде</li>
+                    <li class="product-desc__menu-item">Применение</li>
+                </ul>
+            </div>
+            <ul class="product-desc__info-list text_04">
+                <li class="product-desc__info-item product-desc__info-item_active">
+                    <p>Помада как элемент стиля.</p>
+                    <p>Именно цвет и текстура помады являются одним из главных акцентов модного образа, создавая
+                        целостность и передавая определенный стиль.</p>
+                    <p>ЛЭтуаль представляет COMME IL FAUT, новую помаду для губ.</p>
+                    <p>У каждого случая есть свой цвет. Ультра мягкая чувственная помада для губ с сатиновым эффектом. -
+                        Уникальная палитра состоит из трех направлений и соответствует своему стилю: COMME IL FAUT
+                        casual - оттенки для легкого, натурального и естественного макияжа; COMME IL FAUT cocktail –
+                        четко выверенный баланс пигментов для дневного макияжа; COMME IL FAUT black tie – насыщенные
+                        оттенки для особых случаев.</p>
+                </li>
+                <li class="product-desc__info-item">
+                    <p>Выявляя устойчивые архетипы на примере художественного творчества, можно сказать, что природа
+                        эстетического вероятна.
+                    <p>Эзотерическое, как бы это ни казалось парадоксальным, готично имитирует анимус. Асинхронность
+                        эволюции видов, по определению, характерна.</p></li>
+                <li class="product-desc__info-item">
+                    <p>Художественное опосредование, так или иначе, заканчивает деструктивный стиль. Целостность
+                        представляет собой резкий эпитет.</p>
+                    <p>Аполлоновское начало использует психологический параллелизм. Действительно, эзотерическое
+                        иллюстрирует элитарный синхронический подход.</p>
+                </li>
+            </ul>
+            <div class="container">
+                <button type="button" class="btn-icon btn-icon_more">
+                    <svg class="btn-icon__img btn-icon__img_more" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.49004 9.6975C9.29683 9.89095 9.03471 9.99976 8.76129 10H8.23879C7.96597 9.99683 7.70491 9.88847 7.51004 9.6975L0.456291 2.63C0.326139 2.50091 0.25293 2.32519 0.25293 2.14187C0.25293 1.95856 0.326139 1.78284 0.456291 1.65375L1.43254 0.6775C1.55927 0.548162 1.73272 0.475277 1.91379 0.475277C2.09486 0.475277 2.26832 0.548162 2.39504 0.6775L8.50004 6.79625L14.605 0.6775C14.7341 0.547347 14.9099 0.474138 15.0932 0.474138C15.2765 0.474138 15.4522 0.547347 15.5813 0.6775L16.5438 1.65375C16.6739 1.78284 16.7472 1.95856 16.7472 2.14187C16.7472 2.32519 16.6739 2.50091 16.5438 2.63L9.49004 9.6975Z" fill="#4F4F4F"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer footer_product-card footer_gray-shadow">
+        <div class="product-options">
+            <p class="product-options__choice">Выбрано: №211</p>
+            <ul class="product-options__list">
+                <li class="product-options__item"><span class="product-options__img-active"></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span></span></li>
+                <li class="product-options__item"><span class="product-options__img-none"></span></li>
+            </ul>
+        </div>
+        <div class="btns-block">
+            <button class="btn btn_blue">Купить сейчас</button>
+            <button class="btn btn_transparent">Добавить в корзину</button>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
