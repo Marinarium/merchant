@@ -1,0 +1,192 @@
+/*------Structure----*/
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 900;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.desktop-container {
+    display: flex;
+    width: 890px;
+    height: 83.789vh;
+    overflow: hidden;
+    z-index: 20;
+    margin: auto;
+}
+
+/*-------Video block----*/
+.desktop-container .wrapper_video-stream {
+    width: 515px;
+    position: relative;
+    z-index: 200;
+}
+
+.desktop-container .video-bg {
+    position: static;
+    width: 100%;
+}
+
+.desktop-container .video {
+    position: absolute;
+    top: 0;
+    left: -50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.desktop-container .header_video-stream,
+.desktop-container .shopping,
+.desktop-container .footer_video-stream {
+    position: relative;
+    z-index: 20;
+}
+
+/*--------Content for product card--------*/
+.desktop-container .wrapper_product-card {
+    width: 375px;
+    z-index: 2;
+    overflow-y: scroll;
+}
+
+.desktop-container .product-desc .container {
+    position: relative;
+    z-index: 35;
+}
+
+
+.desktop-container .footer_product-card {
+    position: relative;
+    z-index: 30;
+}
+
+/*--------Content for stream products--------*/
+.desktop-container .wrapper__stream-products {
+    width: 375px;
+    box-sizing: border-box;
+    z-index: 2;
+    overflow-y: scroll;
+}
+
+/*--------Content for streamrs' pages--------*/
+.desktop-container .wrapper_streamer-page {
+    width: 375px;
+    z-index: 2;
+    overflow-y: scroll;
+}
+
+.desktop-container .header_streamer-page {
+    width: 100%;
+    height: 222px;
+}
+
+.desktop-container .main_streamer-page .container {
+    position: relative;
+    z-index: 35;
+}
+
+.desktop-container .footer_streamer-page {
+    position: relative;
+}
+
+/*------------Basket--------*/
+.desktop-container .wrapper_basket {
+    width: 375px;
+    box-sizing: border-box;
+    z-index: 2;
+    overflow-y: scroll;
+    position: relative;
+    padding: 34px 24.5px 0 25px;
+}
+
+/*Desktop-header <---------------------only for basket YET*/
+/*Video*/
+.desktop-container .header_video-stream {
+    margin: 32px 37px 15.03px 22px;
+}
+
+.desktop-container .actions {
+    display: none;
+}
+
+.desktop-container .special-offers {
+    margin-right: 37px;
+    margin-top: -47px;
+}
+
+.desktop-container .cart {
+    margin-left: 22px;
+}
+
+.desktop-container .gift {
+    margin-bottom: 31.2px;
+}
+
+.desktop-container .footer_video-stream {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 60.84%);
+    box-sizing: border-box;
+    padding-bottom: 37.22px;
+    padding-top: 125px;
+}
+
+.product_sm:first-child {
+    margin-left: 22px;
+}
+
+
+.desktop-container .social {
+    display: none;
+}
+
+/*Basket*/
+.desktop-container .header_basket {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.desktop-controls {
+    display: flex;
+    align-items: center;
+}
+
+.desktop-controls button {
+    margin-left: 23.28px;
+}
+
+.desktop-container .page-title {
+    flex-grow: 1;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 31.54px;
+}
+
+
+.desktop-container .main_basket .product-list_stream-products {
+    margin-bottom: 0;
+}
+
+.wrapper_basket .container-sticky {
+    position: sticky;
+    bottom: 0;
+}
+
+.desktop-container .footer_basket {
+    position: static;
+}
+
+.desktop-container .footer_basket .btns-block {
+    bottom: 48px;
+}
