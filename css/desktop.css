@@ -17,18 +17,22 @@
 
 .desktop-container {
     display: flex;
-    width: 890px;
+    /*width: 890px;*/
+    width: 61.805%;
     height: 83.789vh;
     overflow: hidden;
     z-index: 20;
     margin: auto;
+    box-sizing: border-box;
 }
 
 /*-------Video block----*/
 .desktop-container .wrapper_video-stream {
     width: 515px;
+    width: 57.86%;
     position: relative;
     z-index: 200;
+    box-sizing: border-box;
 }
 
 .desktop-container .video-bg {
@@ -102,12 +106,14 @@
 
 /*------------Basket--------*/
 .desktop-container .wrapper_basket {
-    width: 375px;
+    /*width: 375px;*/
+    width: 42.14%;
     box-sizing: border-box;
     z-index: 2;
     overflow-y: scroll;
     position: relative;
-    padding: 34px 24.5px 0 25px;
+    /*padding: 34px 24.5px 0 25px;*/
+    padding: 23px 21px 0;
 }
 
 /*Desktop-header <---------------------only for basket YET*/
@@ -190,3 +196,34 @@
 .desktop-container .footer_basket .btns-block {
     bottom: 48px;
 }
+
+@media screen and (max-width: 1440px) {
+    .desktop-container {
+        width: 890px;
+    }
+
+    .desktop-container .wrapper_video-stream {
+        width: 515px;
+    }
+
+    .desktop-container .wrapper_basket {
+         width: 375px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .desktop-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .desktop-container .wrapper_video-stream {
+        width: 57.86%;
+    }
+
+    .desktop-container .wrapper_basket {
+        width: 42.14%;
+    }
+}
+
+/*------------C 850 стили для мобильны устройств-----------*/
