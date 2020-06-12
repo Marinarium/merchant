@@ -11,7 +11,7 @@
 /*---------About streamer----*/
 .about-streamer {
     text-align: center;
-    margin: 0 22px 20px;
+    /*margin: 0 22px 20px;*/
     color: #333;
 }
 
@@ -47,13 +47,33 @@
 
 .about-streamer__text {
     margin-bottom: 20px;
-    height: 55px;
+    /*height: 55px;*/
+    height: 130px;
+    margin: 0 22px 20px;
+}
+
+.about-streamer .container {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    height: 70px;
+    margin-top: -120px;
+    /*margin-left: -22px;*/
+    position: absolute;
+    width: 100%;
+    padding-top: 50px;
+    /*box-sizing: border-box;*/
+    background: linear-gradient(180.22deg, rgba(237, 238, 243, 0.007), rgba(237, 238, 243, 0.89), rgb(237, 238, 243));
 }
 
 /*--------------Footer---------*/
 .footer_streamer-page {
-    padding-top: 146px;
-    margin-top: -146px;
+    /*padding-top: 146px;
+    margin-top: -146px;*/
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -153,4 +173,5 @@
 .footer_streamer-page .btns-block {
     text-align: center;
     padding-bottom: 30px;
+    padding-bottom: 50px;
 }
