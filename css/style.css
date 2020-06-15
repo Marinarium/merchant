@@ -761,6 +761,10 @@ html {
     flex-grow: 1;
 }
 
+.input-ask:focus {
+    outline: none;
+}
+
 .like:hover .like__fill {
     fill: #FF4964;
     -webkit-transition-duration: 350ms;
