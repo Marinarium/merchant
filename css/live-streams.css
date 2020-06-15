@@ -51,6 +51,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin-bottom: 17px;
+    max-width: 325px;
 }
 
 /*Header*/
@@ -145,10 +146,11 @@
 /*Stream Cover*/
 .stream__cover {
     border-radius: 10px;
-    width: 168px;
+    max-width: 168px;
     height: 214px;
     overflow: hidden;
     position: relative;
+    margin-right: 17px;
 }
 
 .stream__img {
