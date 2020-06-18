@@ -1,0 +1,60 @@
+/*Buttons*/
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+/*The button with a blue background*/
+.btn_blue {
+    transition-duration: 450ms;
+}
+
+.btn_blue:hover {
+    background: linear-gradient(98.04deg, #389DFF 0.33%, #3889FF 100%);
+    box-shadow: 0px 4px 20px rgba(56, 139, 255, 0.4);
+    transition-duration: 450ms;
+}
+
+.btn_blue:active {
+    background: none;
+    color: #398CFF;
+    border: 2px solid #398CFF;
+    box-shadow: none;
+    transition-duration: 450ms;
+}
+
+/*The button without a background*/
+.btn_transparent {
+    transition-duration: 450ms;
+}
+
+.btn_transparent:hover {
+    box-shadow: 0px 4px 20px rgba(56, 139, 255, 0.4);
+    transition-duration: 450ms;
+}
+
+.btn_transparent:active {
+    background: linear-gradient(98.04deg, #389DFF 0.33%, #3889FF 100%);
+    color: #fff;
+    box-shadow: none;
+    transition-duration: 450ms;
+}
+
+/*Star*/
+svg:hover .star__fill {
+    fill: #F2C94C;
+    -webkit-transition-duration: 350ms;
+    -o-transition-duration: 350ms;
+    transition-duration: 350ms;
+}
+
+
+
+
+
+
+
+
